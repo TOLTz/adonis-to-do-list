@@ -1,5 +1,4 @@
 import vine from '@vinejs/vine'
-import { title } from 'process'
 
 export const createUserValidator = vine.compile(
     vine.object({
