@@ -25,7 +25,7 @@ export default class extends BaseSeeder {
       {
         title:'dormir em lugar que não pode',
         description: 'Dormir na caixa de lã',
-        userId: 5, 
+        userId: 2, 
       }
     ])
   }

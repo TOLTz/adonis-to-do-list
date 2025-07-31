@@ -4,13 +4,13 @@ import { BaseSeeder } from '@adonisjs/lucid/seeders'
 export default class extends BaseSeeder {
   async run() {
     await User.createMany([{
-      name:'Meg',
-      email:'megagata@gmail.com',
+      name:'Aneurisma',
+      email:'aaaa@gmail.com',
       password: 'secret',
     },
   { 
-      name:'Lubby',
-      email:'lubbyogato@gmail.com',
+      name:'Roberto carlos',
+      email:'robcarl@gmail.com',
       password: 'secret',
     },
   ])

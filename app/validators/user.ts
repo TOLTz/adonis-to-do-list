@@ -17,7 +17,7 @@ export const createUserValidator = vine.compile(
 
 export const updateUserValidator = vine.compile(
     vine.object({
-        name: vine.string().trim(),
-        password: vine.string().minLength(6)
+        name: vine.string().trim().optional(),
+        password: vine.string().minLength(6).optional(),
     })
 )
