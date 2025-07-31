@@ -5,7 +5,7 @@ import type { HttpContext } from '@adonisjs/core/http'
 export default class TasksController {
   async index({ auth }: HttpContext) {
     const user = auth.user!
-    await user.preload('tasks')
+    await user.load('tasks')
     return user.tasks
   }
   async store({ request, response, auth }: HttpContext) {
