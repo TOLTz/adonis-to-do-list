@@ -15,4 +15,4 @@ export default class SessionController {
   }
 }
 
-const email = teste@teste.com
+const email = "teste@teste.com";
