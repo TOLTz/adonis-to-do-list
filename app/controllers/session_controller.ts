@@ -14,3 +14,5 @@ export default class SessionController {
     return response.status(203)
   }
 }
+
+const email = teste@teste.com
